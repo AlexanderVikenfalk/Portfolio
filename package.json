@@ -2,6 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://alexandervikenfalk.github.io/",
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.6",
     "font-awesome": "^4.7.0",
@@ -21,6 +22,5 @@
   "devDependencies": {
     "eslint": "^4.8.0",
     "gh-pages": "^1.0.0"
-  },
-  "homepage": "https://github.com/AlexanderVikenfalk/AlexanderVikenfalk.github.io"
+  }
 }
