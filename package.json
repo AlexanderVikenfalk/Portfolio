@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "font-awesome": "^4.7.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-fontawesome": "^1.6.1",
+    "react-scripts": "1.0.14",
+    "reactstrap": "^4.8.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy" : "npm run build&&gh-pages -d build"
+  },
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "gh-pages": "^1.0.0"
+  },
+  "homepage": "https://github.com/AlexanderVikenfalk/AlexanderVikenfalk.github.io"
+}
