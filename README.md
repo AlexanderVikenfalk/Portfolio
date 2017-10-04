@@ -16,4 +16,5 @@ Second version of my portffolio. This time written in React (although unnecessar
 The webpage looks best on small (<700px) and on medium (~1400px) devices. Tested on Google Chrome.
 
 [Project](https://alexandervikenfalk.github.io/Portfolio/)
+
 [LinkedIn](https://de.linkedin.com/in/alexander-vikenfalk-6b993b42)
