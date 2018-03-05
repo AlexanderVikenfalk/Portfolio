@@ -2,19 +2,20 @@
 #### Author: Alexander Vikenfalk
 
 #### About this project: 
-Second version of my portffolio. This time written in React (although unnecessary it feels better creating the app in React from the start in case I want to expand the project later).
+Third version of my portffolio. Wwritten in React again (although not needed it feels better creating the app in React from the since I proabably will add features later).
 
 #### Technologies used: 
 * **CSS 3** for design.
-* **Bootstrap v4** for responsive design.
 * **JSX (ES6 / HTML-5)/ React** for structure.
 
 #### Screenshots ####
-![portfolio](https://user-images.githubusercontent.com/16190870/31170933-4545cdee-a8fe-11e7-969c-0c0532907c3b.png)
+![portfolio on big screen](https://user-images.githubusercontent.com/16190870/36989280-87899de6-20a1-11e8-8e18-dca59957c54e.PNG)
+![portfolio on mid size screen](https://user-images.githubusercontent.com/16190870/36989278-87333ec4-20a1-11e8-9dd6-b1a4f9194266.PNG)
+![portfolio on small screen](https://user-images.githubusercontent.com/16190870/36989279-876c2068-20a1-11e8-8d14-31aafebcf2c7.PNG)
 
 #### Other remarks ####
-The webpage looks best on small (<700px) and on medium (~1400px) devices. Tested on Google Chrome.
+Tested on Chrome (64.0.3282) , Opera (51.0), Firefox (58.02) and Microsoft Edge (41.16299) on smaller ( < 500px) as well as bigger ( > 1500px) resolutions.
 
-[Project](https://alexandervikenfalk.github.io/Portfolio/)
+[Project](https://alexandervikenfalk.github.io/
 
 [LinkedIn](https://de.linkedin.com/in/alexander-vikenfalk-6b993b42)
