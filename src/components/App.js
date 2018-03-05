@@ -66,7 +66,7 @@ export default class App extends Component {
                 </li>
                 <li>
                   <i className="fas fa-database" /> Database integration with both
-                  SQL and NOSQL (Mongo DB).
+                  SQL and NoSQL (Mongo DB).
                 </li>
                 <li>
                   <i className="fas fa-server" /> Deployment to Firebase, Azure as
