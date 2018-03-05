@@ -16,6 +16,6 @@ Third version of my portfolio. Written in React again (although not needed it fe
 #### Other remarks ####
 Tested on Chrome (64.0.3282) , Opera (51.0), Firefox (58.02) and Microsoft Edge (41.16299) on smaller ( < 500px) as well as bigger ( > 1500px) resolutions.
 
-[Project](https://alexandervikenfalk.github.io/portfolio)
+[Project](https://alexandervikenfalk.github.io/Portfolio)
 
 [LinkedIn](https://de.linkedin.com/in/alexander-vikenfalk-6b993b42)
