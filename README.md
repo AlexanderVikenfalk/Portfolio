@@ -2,7 +2,7 @@
 #### Author: Alexander Vikenfalk
 
 #### About this project: 
-Third version of my portffolio. Wwritten in React again (although not needed it feels better creating the app in React from the since I proabably will add features later).
+Third version of my portfolio. Written in React again (although not needed it feels better creating the app in React from the since I proabably will add features later).
 
 #### Technologies used: 
 * **CSS 3** for design.
@@ -16,6 +16,6 @@ Third version of my portffolio. Wwritten in React again (although not needed it 
 #### Other remarks ####
 Tested on Chrome (64.0.3282) , Opera (51.0), Firefox (58.02) and Microsoft Edge (41.16299) on smaller ( < 500px) as well as bigger ( > 1500px) resolutions.
 
-[Project](https://alexandervikenfalk.github.io/
+[Project](https://alexandervikenfalk.github.io/Portfolio)
 
 [LinkedIn](https://de.linkedin.com/in/alexander-vikenfalk-6b993b42)
