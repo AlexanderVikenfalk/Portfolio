@@ -2,7 +2,7 @@
 #### Author: Alexander Vikenfalk
 
 #### About this project: 
-Third version of my portffolio. Written in React again (although not needed it feels better creating the app in React from the since I proabably will add features later).
+Third version of my portfolio. Written in React again (although not needed it feels better creating the app in React from the since I proabably will add features later).
 
 #### Technologies used: 
 * **CSS 3** for design.
