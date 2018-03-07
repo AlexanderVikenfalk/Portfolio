@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "3.0.0",
   "private": false,
-  "homepage": "https://alexandervikenfalk.github.io",
+  "homepage": "https://alexandervikenfalk.github.io/Portfolio/",
   "description": "Portfolio of Alexander Vikenfalk",
   "dependencies": {
     "gh-pages": "^1.1.0",
@@ -14,14 +14,14 @@
   "scripts": {
     "predeploy": "npm run build",
     "start": "react-scripts start",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages  -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlexanderVikenfalk/AlexanderVikenfalk.github.io.git"
+    "url": "git+https://github.com/AlexanderVikenfalk/Portfolio.git"
   },
   "keywords": [
     "javascript",

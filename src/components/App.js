@@ -6,7 +6,7 @@ export default class App extends Component {
     return (
       <div className="wrapper">
         <div className="sidebar" />
-        <div className="box header" id="nietzsche">
+        <div className="box header" id="textWrapper">
           {" "}
           <h1 className="inset-text" title="Alexander Vikenfalk">
             <span>
@@ -24,7 +24,7 @@ export default class App extends Component {
         </div>
         <div className="box backgroundOnSmall" />
         <div className="overlay" />
-        <div className="box textContainer " id="nietzsche">
+        <div className="box textContainer " id="textWrapper">
           <div className="box column">
             <h2>
               <span>About me</span>
