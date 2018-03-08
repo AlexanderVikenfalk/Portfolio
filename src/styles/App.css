@@ -3,6 +3,8 @@
  --main-bg-color: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
  --main-text-color: ghostwhite;
  --main-text-small: 400 16px/24px "gentium book basic";
+ --overlay-color-from: rgba(255, 255, 255, 0.15) 10%;
+ --overlay-color-to: rgba(255, 255, 255, 0) 100%;
  --sidebar-bg-color: #525660;
  --sidebar-shadow-color: 20px 2px 33px 3px rgba(0, 0, 0, 0.2);
  --text-bg-color: #ef4723;
@@ -115,8 +117,8 @@ ul {
   background-image: -moz-radial-gradient(
     center top,
     ellipse farthest-corner,
-    rgba(230, 218, 218, 1) 10%,
-    #ffffff 100%
+    var(--color-overlay-from),
+    var(--color-overlay-to)
   );
 
   /* Opera */
@@ -142,15 +144,15 @@ ul {
   background-image: -webkit-radial-gradient(
     center top,
     ellipse farthest-corner,
-    rgba(230, 218, 218, 1) 10%,
-    rgba(230, 218, 218, 0.45) 100%
+    var(--color-overlay-from),
+    var(--color-overlay-to)
   );
 
   /* W3C Markup */
   background-image: radial-gradient(
     ellipse farthest-corner at center top,
-    rgba(255, 255, 255, 0.15) 10%,
-    rgba(255, 255, 255, 0) 100%
+    var(--color-overlay-from),
+    var(--color-overlay-to)
   );
   z-index: 0;
 }
@@ -427,17 +429,18 @@ footer ul li a:focus .fa-linkedin {
   #root {
     position: relative;
     overflow-x: hidden;
+    max-width: 100%;
   }
 
   .wrapper {
     background-color: var(--sidebar-bg-color);
     height: 100%;
-    width: 100vw;
+    width: 100%;
     display: grid;
     grid-gap: 10px;
     grid-template-columns: 1fr;
     color: #444;
-    grid-template-rows: 100vh;
+    grid-template-rows: 10vh 90vh;
   }
 
   /* HEADER */
@@ -447,13 +450,13 @@ footer ul li a:focus .fa-linkedin {
     grid-row: 1;
     align-items: flex-start;
     /* justify-content: flex-end; */
-    z-index: 1;
+    z-index: 0;
   }
   #textWrapper h1 {
     background: rgba(239, 71, 35);
     font: 800 32px/32px "open sans";
     margin-top: 0;
-    padding: 20px 0;
+    padding: 10px 0;
   }
 
   #textWrapper h1 span {
@@ -475,16 +478,18 @@ footer ul li a:focus .fa-linkedin {
   .picture {
     display: flex;
     grid-column: 1;
-    grid-row: 1;
+    grid-row: 2;
     margin-bottom: 0;
     justify-content: center;
     align-content: center;
-    z-index: 2;
+    z-index: 10;
   }
 
   .picture img {
     align-self: center;
     height: 100%;
+    
+   max-width: 100%;
 
   }
 
@@ -503,7 +508,7 @@ footer ul li a:focus .fa-linkedin {
     display: flex;
     background: rgb(239, 71, 35);
     grid-column: 1;
-    grid-row: 1/2;
+    grid-row: 2;
     width: 100%;
     height: 100px;
     z-index: 0;
