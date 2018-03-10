@@ -2,7 +2,7 @@ import React from "react";
 
 export default function() {
   return (
-    <div className="sidebar">
+
       <div className="box header" id="textWrapper">
         {" "}
         <h1 className="inset-text" title="Alexander Vikenfalk">
@@ -13,6 +13,5 @@ export default function() {
         </h1>
       </div>
 
-    </div>
   );
 }
