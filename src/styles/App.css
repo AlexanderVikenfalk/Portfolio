@@ -1,15 +1,15 @@
 /* VARIABLES */
-:root{
- --main-bg-color: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
- --main-text-color: ghostwhite;
- --main-text-small: 400 16px/24px "gentium book basic";
- --overlay-color-from: rgba(255, 255, 255, 0.15) 10%;
- --overlay-color-to: rgba(255, 255, 255, 0) 100%;
- --sidebar-bg-color: #525660;
- --sidebar-shadow-color: 20px 2px 33px 3px rgba(0, 0, 0, 0.2);
- --text-bg-color: #ef4723;
- --wrapper-bg-color: #393d48;
- --wrapper-shadow-color: 6px 10px 29px 8px rgba(0, 0, 0, 0.37);
+:root {
+  --main-bg-color: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  --main-text-color: ghostwhite;
+  --main-text-small: 400 16px/24px "gentium book basic";
+  --overlay-color-from: rgba(255, 255, 255, 0.15) 10%;
+  --overlay-color-to: rgba(255, 255, 255, 0) 100%;
+  --sidebar-bg-color: #525660;
+  --sidebar-shadow-color: 20px 2px 33px 3px rgba(0, 0, 0, 0.2);
+  --text-bg-color: #ef4723;
+  --wrapper-bg-color: #393d48;
+  --wrapper-shadow-color: 6px 10px 29px 8px rgba(0, 0, 0, 0.37);
 }
 
 * {
@@ -49,14 +49,14 @@ ul {
   text-transform: uppercase;
   width: 100%;
   position: relative;
-
 }
 
 #textWrapper .inset-text {
   left: 0;
   display: inline-block;
   color: rgba(0, 2, 34, 0.8);
-  text-shadow: 1px 4px 6px var(--text-bg-color), 0 0 0 #000, 1px 4px 6px var(--text-bg-color);
+  text-shadow: 1px 4px 6px var(--text-bg-color), 0 0 0 #000,
+    1px 4px 6px var(--text-bg-color);
 }
 
 /* Don't show shadows when selecting text */
@@ -66,7 +66,6 @@ ul {
   color: #fff;
   text-shadow: none;
 }
-
 
 #textWrapper h1 span {
   font: 400 60px/60px "gentium book basic";
@@ -84,14 +83,14 @@ ul {
   text-transform: uppercase;
 }
 #textWrapper h2 span {
-  background:var(--text-bg-color);
+  background: var(--text-bg-color);
   padding: 0 20px;
   position: relative;
   top: -10px;
 }
 
 #textWrapper .excerpt {
-  color:var(--main-text-color);
+  color: var(--main-text-color);
   font: 400 18px/24px "gentium book basic";
   padding: 0 60px;
   z-index: 10;
@@ -155,7 +154,7 @@ ul {
     rgba(255, 255, 255, 0.26) 10%,
     rgba(255, 255, 255, 0) 100%
   );
-  z-index: 9 ;
+  z-index: 9;
 }
 
 /****** FOOTER *********/
@@ -167,13 +166,14 @@ footer ul li {
   height: 50px;
   cursor: pointer;
   margin: 0 10px;
+  z-index: 10;
 }
 
 .social .link {
   position: relative;
   background-clip: content-box;
   transition: 0.5s;
-  color:var(--main-text-color);
+  color: var(--main-text-color);
 }
 
 .social .link:hover {
@@ -211,22 +211,20 @@ footer ul li a:focus .fa-linkedin {
   animation: clickedIconAnimation 0.2s ease-out;
 }
 
-
-  @keyframes clickedIconAnimation {
-    50% {
-      transform: scale(1.5, 1.5);
-      opacity: 0.1;
-    }
-    99% {
-      transform: scale(0.001, 0.001);
-      opacity: 0.5;
-    }
-    100% {
-      transform: scale(0.001, 0.001);
-      opacity: 1;
-    }
+@keyframes clickedIconAnimation {
+  50% {
+    transform: scale(1.5, 1.5);
+    opacity: 0.1;
   }
-
+  99% {
+    transform: scale(0.001, 0.001);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(0.001, 0.001);
+    opacity: 1;
+  }
+}
 
 @media (min-width: 770px) {
   html,
@@ -250,9 +248,9 @@ footer ul li a:focus .fa-linkedin {
     /* padding: 20px; */
     background-color: var(--wrapper-bg-color);
     border: 20px solid var(--wrapper-bg-color);
-    -webkit-box-shadow: var(--wrapper-shadow-color);;
-    -moz-box-shadow: var(--wrapper-shadow-color);;
-    box-shadow: var(--wrapper-shadow-color);;
+    -webkit-box-shadow: var(--wrapper-shadow-color);
+    -moz-box-shadow: var(--wrapper-shadow-color);
+    box-shadow: var(--wrapper-shadow-color);
     /* border-radius: 10px; */
   }
 
@@ -273,7 +271,6 @@ footer ul li a:focus .fa-linkedin {
     align-items: center;
     justify-content: center;
     align-self: center;
-    ;
   }
 
   .sidebar {
@@ -336,7 +333,6 @@ footer ul li a:focus .fa-linkedin {
     justify-content: space-around;
     padding-bottom: 20px;
   }
-
 }
 
 @media (min-width: 770px) and (max-width: 1000px) {
@@ -369,13 +365,19 @@ footer ul li a:focus .fa-linkedin {
   #textWrapper .excerpt {
     font: var(--main-text-small);
     padding: 0 15px;
-    
   }
 
   /* FOOTER */
   .wrapper footer {
     grid-column: 1/5;
   }
+  footer ul {
+  padding: 0;
+}
+  footer ul li {
+    font-size: 14px;
+  }
+
 }
 @media (min-width: 1001px) and (max-width: 1300px) {
   #textWrapper h1 {
@@ -390,10 +392,14 @@ footer ul li a:focus .fa-linkedin {
   #textWrapper .excerpt {
     font: var(--main-text-small);
     padding: 0 15px;
-    
   }
 
-
+  footer ul {
+    padding: 0;
+  }
+    footer ul li {
+      font-size: 14px;
+    }
 }
 @media (min-width: 1301px) and (max-width: 1430px) {
   #textWrapper .excerpt {
@@ -419,6 +425,8 @@ footer ul li a:focus .fa-linkedin {
     font-style: italic;
     text-transform: none;
   }
+
+
 }
 @media (max-width: 769px) {
   html,
@@ -485,9 +493,8 @@ footer ul li a:focus .fa-linkedin {
   .picture img {
     align-self: center;
     height: 100%;
-    
-   max-width: 100%;
 
+    max-width: 100%;
   }
 
   /* TEXT */
@@ -544,11 +551,14 @@ footer ul li a:focus .fa-linkedin {
     margin: 0 10px;
   }
 
-
   .social .link {
     position: relative;
     background-clip: content-box;
     transition: 0.5s;
-    color:var(--main-text-color)
+    color: var(--main-text-color);
+  }
+
+  footer ul li {
+    font-size: 12px;
   }
 }
