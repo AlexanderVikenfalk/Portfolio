@@ -8,3 +8,4 @@
 - [ ] Add projects in firebase 
 - [ ] Add Redux and connect to firebase. (or maybe just connect directly via react? ) 
 - [ ] Add Jest tests.
+a
