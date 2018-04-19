@@ -45,7 +45,7 @@ return (
           </div>
           <div className="profile__resume-link-wrapper">
             {" "}
-            <a href={process.env.PUBLIC_URL + resume}>Resume</a>
+            <a href={process.env.PUBLIC_URL +"/cv/resume.pdf"}>Resume</a>
           </div>
         </div>
       </div>
