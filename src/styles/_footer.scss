@@ -1,0 +1,135 @@
+.social {
+  position: fixed;
+  bottom: 0;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: relative;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  justify-items: flex-end;
+  min-height: 10vh;
+  background-color: $color-primary-orange;
+}
+
+.social__row {
+  width: 100%;
+  max-width: 100%;
+}
+
+.social__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch; /* Default */
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding: 2% 20%;
+}
+
+.social__link {
+  display: inline-block;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.social__link {
+  position: relative;
+  background-clip: content-box;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  color: white;
+  font-size: 4rem;
+}
+
+.social__link:hover {
+  -webkit-transform: rotate(360deg) scale(0.7);
+      -ms-transform: rotate(360deg) scale(0.7);
+          transform: rotate(360deg) scale(0.7);
+}
+
+.social__list-item:hover .fa-github-square {
+  color: #582879;
+}
+.social__anchor-tag:focus .fa-github-square {
+  -webkit-animation: clickedIconAnimation 0.2s ease-out;
+          animation: clickedIconAnimation 0.2s ease-out;
+}
+
+.social__list-item:hover .fa-xing-square {
+  color: #005f5e;
+}
+
+.social__anchor-tag:focus .fa-xing-square {
+  -webkit-animation: clickedIconAnimation 0.2s ease-out;
+          animation: clickedIconAnimation 0.2s ease-out;
+}
+
+.social__list-item:hover .fa-envelope-square {
+  color: #f18f01;
+}
+
+.social__anchor-tag:focus .fa-envelope-square {
+  -webkit-animation: clickedIconAnimation 0.2s ease-out;
+          animation: clickedIconAnimation 0.2s ease-out;
+}
+
+.social__list-item:hover .fa-linkedin {
+  color: #0274b3;
+}
+
+.social__anchor-tag:focus .fa-linkedin {
+  -webkit-animation: clickedIconAnimation 0.2s ease-out;
+          animation: clickedIconAnimation 0.2s ease-out;
+}
+
+@-webkit-keyframes clickedIconAnimation {
+  50% {
+    -webkit-transform: scale(1.5, 1.5);
+            transform: scale(1.5, 1.5);
+    opacity: 0.1;
+  }
+  99% {
+    -webkit-transform: scale(0.001, 0.001);
+            transform: scale(0.001, 0.001);
+    opacity: 0.5;
+  }
+  100% {
+    -webkit-transform: scale(0.001, 0.001);
+            transform: scale(0.001, 0.001);
+    opacity: 1;
+  }
+}
+
+@keyframes clickedIconAnimation {
+  50% {
+    -webkit-transform: scale(1.5, 1.5);
+            transform: scale(1.5, 1.5);
+    opacity: 0.1;
+  }
+  99% {
+    -webkit-transform: scale(0.001, 0.001);
+            transform: scale(0.001, 0.001);
+    opacity: 0.5;
+  }
+  100% {
+    -webkit-transform: scale(0.001, 0.001);
+            transform: scale(0.001, 0.001);
+    opacity: 1;
+  }
+}

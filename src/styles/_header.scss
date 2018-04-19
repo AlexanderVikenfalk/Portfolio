@@ -1,0 +1,205 @@
+.header {
+  width: 100%;
+  min-height: 40rem;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  // justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header__smallText {
+  font-family: roboto, Georgia, Cambria, "Times New Roman", Times, serif;
+  // font-weight: bold;
+  font-style: italic;
+  font-size: 1rem;
+}
+
+.header__bigText {
+  font-family: roboto-black, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-weight: bold;
+  // font-style: italic;
+  font-size: 5rem;
+  letter-spacing: 0.1 rem;
+}
+
+// HEADER CONTAINER //
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  text-transform: uppercase;
+  color: $color-primary-orange;
+  letter-spacing: 12px;
+  height: 60vh;
+  width: 100%;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__container-inner {
+  // height:100px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.header__bigText span {
+  color: $color-primary-light;
+}
+
+.header__smallText span {
+  color: $color-primary-orange;
+}
+
+/* ARROW */
+.header__arrow-container {
+  height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  justify-self: flex-end;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.header__arrow-outer {
+  // bottom: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  // position: absolute;
+  height: 5rem;
+  width: 100%;
+}
+
+.header__arrow-inner {
+  bottom: 0;
+  border: 3px solid $color-primary-orange;
+  cursor: pointer;
+  height: 4rem;
+  text-align: center;
+  width: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  -webkit-transition: all 0.6s;
+  -o-transition: all 0.6s;
+  position: relative;
+  transition: all 0.6s;
+  z-index: 1;
+  overflow: hidden;
+}
+.header__arrow-inner:hover {
+  background-color: $color-primary-orange;
+}
+
+.header__arrow-element {
+  margin-top: -50px;
+  position: absolute;
+  width: 2.1rem;
+  height: 0.4rem;
+  -webkit-transform: scale(0.3);
+  -ms-transform: scale(0.3);
+  transform: scale(0.3);
+  -webkit-animation: animate-arrows 3s ease-out infinite;
+  animation: animate-arrows 3s ease-out infinite;
+  z-index: 1;
+}
+
+.header__arrow-element:first-child {
+  -webkit-animation: animate-arrows 3s ease-out 1s infinite;
+  animation: animate-arrows 3s ease-out 1s infinite;
+}
+
+.header__arrow-element:nth-child(2) {
+  -webkit-animation: animate-arrows 3s ease-out 2s infinite;
+  animation: animate-arrows 3s ease-out 2s infinite;
+}
+
+.header__arrow-element:before,
+.header__arrow-element:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  background: $color-primary-light;
+}
+
+.header__arrow-element:before {
+  left: 0;
+  -webkit-transform: skewY(40deg);
+  -ms-transform: skewY(40deg);
+  transform: skewY(40deg);
+}
+
+.header__arrow-element:after {
+  right: 1px;
+  width: 50%;
+  -webkit-transform: skewY(-40deg);
+  -ms-transform: skewY(-40deg);
+  transform: skewY(-40deg);
+}
+
+/* ANIMATIONS */
+
+/* Move arrows */
+@-webkit-keyframes animate-arrows {
+  25% {
+    opacity: 0.8;
+  }
+  33.3% {
+    opacity: 1;
+    -webkit-transform: translateY(1.8rem);
+    transform: translateY(1.8rem);
+  }
+  66.6% {
+    opacity: 1;
+    -webkit-transform: translateY(2.5rem);
+    transform: translateY(2.5rem);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(4rem) scale(0.5);
+    transform: translateY(4rem) scale(0.5);
+  }
+}

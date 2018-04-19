@@ -1,0 +1,26 @@
+/* LOGO */
+.header__logoWrapper{
+  display:flex;
+height: 20vh;
+width:100%;
+align-content:flex-start;
+justify-content:flex-start;
+
+}
+
+.header__logo{
+  margin-left: 8vw;
+  margin-top: 5vh;
+  height: 5em;
+  width: 5em;
+  fill: $color-primary-orange;
+  z-index: 30;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.header__logo:hover {
+  -webkit-transform: rotate(360deg);
+}
