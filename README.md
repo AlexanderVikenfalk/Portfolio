@@ -11,6 +11,6 @@ This is the 5 version of my portfolio. I've been trying to take as much as possi
 #### Live ####
 https://alexandervikenfalk.github.io/Portfolio/
 
-### Get in contact with me ###
+#### Get in contact with me ####
 [LinkedIn](https://de.linkedin.com/in/alexander-vikenfalk-6b993b42)
 
