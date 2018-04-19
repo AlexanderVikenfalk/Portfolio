@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.64cccc7d.css",
   "main.css.map": "static/css/main.64cccc7d.css.map",
-  "main.js": "static/js/main.2f5158dd.js",
-  "main.js.map": "static/js/main.2f5158dd.js.map",
+  "main.js": "static/js/main.63a948fb.js",
+  "main.js.map": "static/js/main.63a948fb.js.map",
   "static\\media\\Roboto-Black.ttf": "static/media/Roboto-Black.ec4c9962.ttf",
   "static\\media\\Roboto-Bold.ttf": "static/media/Roboto-Bold.ee7b96fa.ttf",
   "static\\media\\Roboto-Italic.ttf": "static/media/Roboto-Italic.42bbe4ee.ttf",
@@ -22,5 +22,6 @@
   "static\\media\\fa-solid-900.ttf": "static/media/fa-solid-900.1af49f83.ttf",
   "static\\media\\fa-solid-900.woff": "static/media/fa-solid-900.2ebe0c1f.woff",
   "static\\media\\fa-solid-900.woff2": "static/media/fa-solid-900.84f351b3.woff2",
-  "static\\media\\profile.jpg": "static/media/profile.a70071ea.jpg"
+  "static\\media\\profile.jpg": "static/media/profile.a70071ea.jpg",
+  "static\\media\\resume.pdf": "static/media/resume.04ae6ebf.pdf"
 }
