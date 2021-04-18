@@ -1,7 +1,7 @@
 #### Author: Alexander Vikenfalk
 
 #### About this project: 
-This is the 5 version of my portfolio. I've been trying to take as much as possiblee into consideration when making this version. I've listened carefully to friends and colleagues when it comes to design choices. I've also focused a lot on responsivness and browser compatibility. 
+This is the first version of my portfolio. I've been trying to take as much as possible into consideration. I've listened carefully to friends and colleagues when it comes to design choices. I've also focused a lot on responsivness and browser compatibility. 
 
 #### Technologies used: 
 * **React.js** I intend to expand the site in the future and therefore I've choosen react for structure. 
